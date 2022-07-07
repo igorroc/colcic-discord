@@ -32,6 +32,11 @@ module.exports = class extends Command {
 				type: "GUILD_VOICE",
 			}
 		)
+		console.log(
+			`Canal ${newChannel.name} criado pelo membro ${
+				interaction.member.nickname || interaction.member.user.username
+			}`
+		)
 
 		let interval = setInterval(deleteNewChannel, 60*1000)
 
@@ -39,7 +44,11 @@ module.exports = class extends Command {
 			if (newChannel.members.size == 0) {
 				newChannel
 					.delete("Ninguém entrou no canal")
-					.then(console.log("Canal excluído por falta de membros."))
+					.then(
+						console.log(
+							`Canal ${newChannel.name} excluído por falta de membros.`
+						)
+					)
 					.catch(console.error)
 				clearInterval(interval)
 			}
