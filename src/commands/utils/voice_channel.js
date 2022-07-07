@@ -11,7 +11,7 @@ module.exports = class extends Command {
 	}
 	run = async (interaction) => {
 		// categoria onde sera criada os chats de voz
-		let idVoice = "994673516161015838"
+		let idVoice = "954913435903197204"
 
 		let categoria = interaction.member.guild.channels.cache.get(idVoice)
 
