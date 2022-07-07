@@ -1,4 +1,4 @@
-const { MessageActionRow, MessageButton } = require("discord.js")
+const { MessageActionRow, MessageButton, MessageEmbed } = require("discord.js")
 const Command = require("../../structures/Command")
 
 module.exports = class extends Command {
@@ -38,7 +38,9 @@ module.exports = class extends Command {
 			}`
 		)
 
-		let interval = setInterval(deleteNewChannel, 60*1000)
+		let invite = await newChannel.createInvite({
+			maxAge: 3600, // 1 hora
+		})
 
 		function deleteNewChannel() {
 			if (newChannel.members.size == 0) {
@@ -54,9 +56,17 @@ module.exports = class extends Command {
 			}
 		}
 
+		let embed = new MessageEmbed()
+			.setColor("#edd24c")
+			.setTitle("Sua sala foi criada!")
+			.setDescription(
+				`[**Clique Aqui**](https://discord.gg/${invite.code}) para entrar na sua sala!\n
+			Caso ninguém entre no canal dentro de 1 minuto, ele será excluído automaticamente.`
+			)
+			.setTimestamp()
+
 		await interaction.reply({
-			content:
-				"Caso ninguém entre no canal dentro de 1 minuto, ele será excluído automaticamente.",
+			embeds: [embed],
 			ephemeral: true,
 		})
 	}
