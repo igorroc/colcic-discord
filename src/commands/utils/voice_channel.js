@@ -41,6 +41,7 @@ module.exports = class extends Command {
 		let invite = await newChannel.createInvite({
 			maxAge: 3600, // 1 hora
 		})
+		let interval = setInterval(deleteNewChannel, 60 * 1000)
 
 		function deleteNewChannel() {
 			if (newChannel.members.size == 0) {
