@@ -15,4 +15,7 @@ const client = new Client({
 	],
 })
 
+global.openTickets = []
+// global.openTickets = [{id: "580722395766194176", topic: "Teste", startDate: new Date()}]
+
 client.login(process.env.BOT_TOKEN)
