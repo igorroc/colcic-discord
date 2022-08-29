@@ -17,7 +17,7 @@ module.exports = class extends Client {
 		this.guilds.cache.get("696430420992066112").commands.set(this.commands) // ProcrastinaNão
 		this.guilds.cache.get("803657352267825182").commands.set(this.commands) // COLCIC
 		// Global:
-		// this.application.commands.set(this.commands)
+		this.application.commands.set(this.commands)
 	}
 
 	loadCommands(path = "src/commands") {
