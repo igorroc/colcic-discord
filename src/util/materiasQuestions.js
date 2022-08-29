@@ -68,32 +68,8 @@ module.exports = [
 		options: [
 			{
 				label: "Cálculo I - T1",
-				description: "Eurivalda Ribeiro dos Santos Santana",
+				description: "Flaviana dos Santos Silva",
 				value: "calc1",
-				emoji: "📝",
-			},
-			{
-				label: "Física - T1",
-				description: "Marcelo O Donnell Krause",
-				value: "fisica-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Física - T2",
-				description: "Marcelo O Donnell Krause",
-				value: "fisica-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Inglês Instrumental - T1",
-				description: "Walkíria França Vieira e Teixeira",
-				value: "ingles-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Inglês Instrumental - T2",
-				description: "Walkíria França Vieira e Teixeira",
-				value: "ingles-t2",
 				emoji: "📝",
 			},
 			{
@@ -104,44 +80,44 @@ module.exports = [
 			},
 			{
 				label: "Introdução a Ciência da Computação - T2",
-				description: "Lilia Marta Brandão Soussa Modesto",
+				description: "Vânia Cordeiro da Silva",
 				value: "icc-t2",
 				emoji: "📝",
 			},
 			{
 				label: "Linguagem de Programação I - T1",
-				description: "Vânia Cordeiro da Silva",
+				description: "Esbel Tomás Valero Orellana",
 				value: "lp1-t1",
 				emoji: "📝",
 			},
 			{
 				label: "Linguagem de Programação I - T2",
-				description: "Esbel Tomás Valero Orellana",
+				description: "Vânia Cordeiro da Silva",
 				value: "lp1-t2",
 				emoji: "📝",
 			},
 			{
 				label: "Lógica para Computação - T1",
-				description: "Paulo André Sperandio Giacomin",
+				description: "Martha Ximena Torres Delgado",
 				value: "logica-t1",
 				emoji: "📝",
 			},
 			{
 				label: "Lógica para Computação - T2",
-				description: "Martha Ximena Torres Delgado",
+				description: "Paulo André Sperandio Giacomin",
 				value: "logica-t2",
 				emoji: "📝",
 			},
 			{
 				label: "Metodologia da Pesquisa Científica - T1",
 				description: "Ana Paula de Almeida Andrade",
-				value: "metodologia-t1",
+				value: "metodologia",
 				emoji: "📝",
 			},
 			{
-				label: "Metodologia da Pesquisa Científica - T2",
-				description: "Ana Paula de Almeida Andrade",
-				value: "metodologia-t2",
+				label: "Inglês Instrumental - T1",
+				description: "Walkíria França Vieira e Teixeira",
+				value: "ingles",
 				emoji: "📝",
 			},
 			{
@@ -160,20 +136,20 @@ module.exports = [
 		options: [
 			{
 				label: "Álgebra Linear e Geometria Analítica - T1",
-				description: "José Carlos Chagas",
-				value: "aga",
+				description: "Jurema Lindote Botelho Peixoto",
+				value: "aga-t1",
+				emoji: "📝",
+			},
+			{
+				label: "Álgebra Linear e Geometria Analítica - T2",
+				description: "Jurema Lindote Botelho Peixoto",
+				value: "aga-t2",
 				emoji: "📝",
 			},
 			{
 				label: "Cálculo II - T1",
-				description: "José Carlos Chagas",
-				value: "calc2-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Cálculo II - T2",
-				description: "Elisangela Silva Farias",
-				value: "calc2-t2",
+				description: "Maria Margarete do Rosário Farias",
+				value: "calc2",
 				emoji: "📝",
 			},
 			{
@@ -202,20 +178,14 @@ module.exports = [
 			},
 			{
 				label: "Linguagem de Programação II - T1",
-				description: "Susana Marrero Iglesias",
+				description: "Edgar Alexander",
 				value: "lp2-t1",
 				emoji: "📝",
 			},
 			{
 				label: "Linguagem de Programação II - T2",
-				description: "Edgar Alexander",
-				value: "lp2-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Linguagem de Programação II - T3",
 				description: "Susana Marrero Iglesias",
-				value: "lp2-t3",
+				value: "lp2-t2",
 				emoji: "📝",
 			},
 			{
@@ -245,15 +215,27 @@ module.exports = [
 		customId: "semestre3",
 		options: [
 			{
-				label: "Álgebra Abstrata - T1",
-				description: "Ricardo Martin Bentin Zacarias",
-				value: "abstrata",
+				label: "Fundamentos de Economia - T1",
+				description: "Raimundo Jorge Zumaeta Costa",
+				value: "economia",
 				emoji: "📝",
 			},
 			{
-				label: "Cálculo III - T1",
-				description: "Gesil Sampaio Amarante Segundo",
-				value: "calc3",
+				label: "Lógica Digital II - T1",
+				description: "Félix Mas Milian",
+				value: "ld2-t1",
+				emoji: "📝",
+			},
+			{
+				label: "Lógica Digital II - T2",
+				description: "Martha Ximena Torres Delgado",
+				value: "ld2-t2",
+				emoji: "📝",
+			},
+			{
+				label: "Álgebra Abstrata - T1",
+				description: "Larissa Brito de Oliveira",
+				value: "abstrata",
 				emoji: "📝",
 			},
 			{
@@ -269,14 +251,8 @@ module.exports = [
 				emoji: "📝",
 			},
 			{
-				label: "Fundamentos de Economia - T1",
-				description: "Zina Angelica Caceres Benavides",
-				value: "economia",
-				emoji: "📝",
-			},
-			{
 				label: "Linguagem de Programação III - T1",
-				description: "Susana M. Iglesias / Dany S. Dominguez",
+				description: "Dany Sánchez Dominguez",
 				value: "lp3-t1",
 				emoji: "📝",
 			},
@@ -284,24 +260,6 @@ module.exports = [
 				label: "Linguagem de Programação III - T2",
 				description: "Sérgio Fred Ribeiro Andrade",
 				value: "lp3-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Lógica Digital II - T1",
-				description: "Hamilton José Brumatto",
-				value: "ld2-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Lógica Digital II - T2",
-				description: "Martha Ximena Torres Delgado",
-				value: "ld2-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Lógica Digital II - T3",
-				description: "Félix Mas Milian",
-				value: "ld2-t3",
 				emoji: "📝",
 			},
 			{
@@ -320,26 +278,14 @@ module.exports = [
 		options: [
 			{
 				label: "Análise dos Sistemas de Informação - T1",
-				description: "Sérgio Fred Ribeiro Andrade",
+				description: "Edgar Alexander",
 				value: "asi",
 				emoji: "📝",
 			},
 			{
 				label: "Computação Gráfica - T1",
-				description: "Marcelo Ossamu Honda",
-				value: "cg-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Computação Gráfica - T2",
 				description: "César Alberto Bravo Pariente",
-				value: "cg-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Direito e Legislação - T1",
-				description: "Guilhardes de Jesus Júnior",
-				value: "direito",
+				value: "cg",
 				emoji: "📝",
 			},
 			{
@@ -350,31 +296,25 @@ module.exports = [
 			},
 			{
 				label: "Organização e Recuperação da Informação - T1",
-				description: "SEM INDICAÇÃO",
+				description: "Elinaldo de Santos Goes Junior",
 				value: "ori",
 				emoji: "📝",
 			},
 			{
 				label: "Probabilidade e Estatística - T1",
 				description: "José Cláudio Faria",
-				value: "pe-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Probabilidade e Estatística - T2",
-				description: "José Cláudio Faria",
-				value: "pe-t2",
+				value: "estatistica",
 				emoji: "📝",
 			},
 			{
 				label: "Projeto e Análise de Algoritmos - T1",
-				description: "Paulo André Sperandio Giacomin",
+				description: "Marta Magda Dornelles",
 				value: "paa-t1",
 				emoji: "📝",
 			},
 			{
 				label: "Projeto e Análise de Algoritmos - T2",
-				description: "SEM INDICAÇÃO",
+				description: "Paulo André Sperandio Giacomin",
 				value: "paa-t2",
 				emoji: "📝",
 			},
@@ -393,39 +333,21 @@ module.exports = [
 		customId: "semestre5",
 		options: [
 			{
+				label: "Inteligência Artificial - T1",
+				description: "Álvaro Vinícius de Souza Coelho",
+				value: "ia",
+				emoji: "📝",
+			},
+			{
 				label: "Análise Numérica - T1",
 				description: "Gesil Sampaio Amarante Segundo",
 				value: "analise",
 				emoji: "📝",
 			},
 			{
-				label: "Banco de Dados I - T1",
-				description: "Marcelo Ossamu Honda",
-				value: "bd1",
-				emoji: "📝",
-			},
-			{
 				label: "Conceitos de Linguagens de Programação - T1",
 				description: "César Alberto Bravo Pariente",
 				value: "clp",
-				emoji: "📝",
-			},
-			{
-				label: "Inteligência Artificial - T1",
-				description: "Álvaro Vinícius de Souza Coelho",
-				value: "ia-t1",
-				emoji: "📝",
-			},
-			{
-				label: "Inteligência Artificial - T2",
-				description: "Paulo Eduardo Ambrósio",
-				value: "ia-t2",
-				emoji: "📝",
-			},
-			{
-				label: "Sistemas Operacionais - T1",
-				description: "Antônio Henrique Figueira Louro",
-				value: "so",
 				emoji: "📝",
 			},
 			{
@@ -437,13 +359,19 @@ module.exports = [
 			{
 				label: "Teoria da Computação - T1",
 				description: "Marta Magda Dornelles",
-				value: "teoria-t1",
+				value: "teoria",
 				emoji: "📝",
 			},
 			{
-				label: "Teoria da Computação - T2",
+				label: "Banco de Dados I - T1",
+				description: "Marcelo Ossamu Honda",
+				value: "bd1",
+				emoji: "📝",
+			},
+			{
+				label: "Sistemas Operacionais - T1",
 				description: "Antônio Henrique Figueira Louro",
-				value: "teoria-t2",
+				value: "so",
 				emoji: "📝",
 			},
 			{
@@ -461,6 +389,12 @@ module.exports = [
 		customId: "semestre6",
 		options: [
 			{
+				label: "Compiladores - T1",
+				description: "César Alberto Bravo Pariente",
+				value: "compiladores",
+				emoji: "📝",
+			},
+			{
 				label: "Administração para Computação - T1",
 				description: "Clemilda Gonzaga Santos",
 				value: "adm",
@@ -473,20 +407,14 @@ module.exports = [
 				emoji: "📝",
 			},
 			{
-				label: "Compiladores - T1",
-				description: "Paulo André Sperandio Giacomin",
-				value: "compiladores",
-				emoji: "📝",
-			},
-			{
 				label: "Interface Homem Máquina - T1",
-				description: "Lilia Marta Brandão Soussa Modesto",
+				description: "Edgar Alexander",
 				value: "ihm",
 				emoji: "📝",
 			},
 			{
 				label: "Rede de Computadores I - T1",
-				description: "SEM INDICAÇÃO",
+				description: "Jorge Lima de Oliveira Filho",
 				value: "redes1",
 				emoji: "📝",
 			},
@@ -524,13 +452,19 @@ module.exports = [
 			},
 			{
 				label: "Sistemas Distribuídos - T1",
-				description: "SEM INDICAÇÃO",
-				value: "sd",
+				description: "Paulo André Sperandio Giacomin",
+				value: "sd-t1",
+				emoji: "📝",
+			},
+			{
+				label: "Sistemas Distribuídos - T1",
+				description: "Álvaro Vinícius de Souza Coelho",
+				value: "sd-t2",
 				emoji: "📝",
 			},
 			{
 				label: "Tecnologia e Sociedade - T1",
-				description: "Paulo Eduardo Ambrósio",
+				description: "Álvaro Vinícius de Souza Coelho",
 				value: "ts",
 				emoji: "📝",
 			},
@@ -556,7 +490,7 @@ module.exports = [
 			},
 			{
 				label: "Estágio - T2",
-				description: "Marcelo Honda / Paulo Ambrósio",
+				description: "Marcelo Honda",
 				value: "estagio-t2",
 				emoji: "📝",
 			},
@@ -575,9 +509,21 @@ module.exports = [
 		customId: "optativas",
 		options: [
 			{
-				label: "Introdução à Bioinformática - T1",
-				description: "Luciano Ângelo de Souza Bernardes",
-				value: "bioinfo",
+				label: "TAC I (Jogos) - T1",
+				description: "Elinaldo de Santos Goes Junior",
+				value: "tac1",
+				emoji: "📝",
+			},
+			{
+				label: "TAC II (Blockchain) - T1",
+				description: "Jauberth Weyll Abijaude",
+				value: "tac2",
+				emoji: "📝",
+			},
+			{
+				label: "Tópicos Avançados em Algoritmos  - T1",
+				description: "Hamilton José Brumatto",
+				value: "taa",
 				emoji: "📝",
 			},
 			{
@@ -587,27 +533,9 @@ module.exports = [
 				emoji: "📝",
 			},
 			{
-				label: "Processamento Paralelo - T1",
-				description: "Esbel Tomás Valero Orellana",
-				value: "pp",
-				emoji: "📝",
-			},
-			{
-				label: "Programação para Aplicações Web - T1",
-				description: "Dany Sánchez Dominguez",
-				value: "web",
-				emoji: "📝",
-			},
-			{
-				label: "TAC I (Blockchain) - T1",
-				description: "Jauberth Weyll Abijaude",
-				value: "tac1",
-				emoji: "📝",
-			},
-			{
-				label: "TAC II (Jogos) - T1",
-				description: "SEM INDICAÇÃO",
-				value: "tac2",
+				label: "Introdução à Bioinformática - T1",
+				description: "Luciano Ângelo de Souza Bernardes",
+				value: "bioinfo",
 				emoji: "📝",
 			},
 			{
