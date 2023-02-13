@@ -14,8 +14,8 @@ module.exports = class extends Client {
 
 	registryCommands() {
 		// Temporário:
-		this.guilds.cache.get("696430420992066112").commands.set(this.commands) // ProcrastinaNão
-		this.guilds.cache.get("803657352267825182").commands.set(this.commands) // COLCIC
+		// this.guilds.cache.get("696430420992066112").commands.set(this.commands) // ProcrastinaNão
+		// this.guilds.cache.get("803657352267825182").commands.set(this.commands) // COLCIC
 		// Global:
 		this.application.commands.set(this.commands)
 	}
@@ -26,10 +26,7 @@ module.exports = class extends Client {
 		for (const category of categories) {
 			const commands = readdirSync(`${path}/${category}`)
 			for (const command of commands) {
-				const commandClass = require(join(
-					process.cwd(),
-					`${path}/${category}/${command}`
-				))
+				const commandClass = require(join(process.cwd(), `${path}/${category}/${command}`))
 				const cmd = new commandClass(this)
 
 				this.commands.push(cmd)
@@ -44,10 +41,7 @@ module.exports = class extends Client {
 		for (const category of categories) {
 			const events = readdirSync(`${path}/${category}`)
 			for (const event of events) {
-				const eventClass = require(join(
-					process.cwd(),
-					`${path}/${category}/${event}`
-				))
+				const eventClass = require(join(process.cwd(), `${path}/${category}/${event}`))
 				const evt = new eventClass(this)
 
 				this.on(evt.name, evt.run)
