@@ -3,7 +3,7 @@
  <img width=200px height=200px src="./caciclogo.jpeg" alt="Bot logo"></a>
 </p>
 
-<h3 align="center">CACIC</h3>
+<h3 align="center">Bot do Discord do COLCIC</h3>
 
 <div align="center">
 
@@ -22,11 +22,11 @@
 
 ## 📝 Table of Contents
 
-- [📝 Table of Contents](#-table-of-contents)
-- [🚀 Deploying your own bot](#-deploying-your-own-bot)
-- [⛏️ Built Using](#️-built-using)
-- [✍️ Authors](#️-authors)
-- [🎉 Acknowledgements](#-acknowledgements)
+-   [📝 Table of Contents](#-table-of-contents)
+-   [🚀 Deploying your own bot](#-deploying-your-own-bot)
+-   [⛏️ Built Using](#️-built-using)
+-   [✍️ Authors](#️-authors)
+-   [🎉 Acknowledgements](#-acknowledgements)
 
 ---
 
